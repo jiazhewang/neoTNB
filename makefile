@@ -4,7 +4,6 @@ deploy :
 	jekyll build
 	git add -A
 	git commit -m "update source"
-	mkdir /tmp
 	cp -r _site/ /tmp/
 	git checkout gh-pages
 	rm -r ./*
