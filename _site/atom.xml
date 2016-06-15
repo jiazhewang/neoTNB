@@ -4,7 +4,7 @@
  <title>Neo TNB</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2016-06-15T15:20:00+08:00</updated>
+ <updated>2016-06-15T16:16:52+08:00</updated>
  <id></id>
  <author>
    <name>Neo Wang</name>
@@ -26,7 +26,9 @@
    <link href="/2016/06/15/test/"/>
    <updated>2016-06-15T00:00:00+08:00</updated>
    <id>/2016/06/15/test</id>
-   <content type="html">&lt;h2&gt;just for testing&lt;/h2&gt;
+   <content type="html">&lt;p&gt;Updated on 2016-06-15&lt;/p&gt;
+
+&lt;h2&gt;just for testing&lt;/h2&gt;
 
 &lt;p&gt;try modify to see if the date of last modified will be changed.&lt;/p&gt;
 </content>
@@ -37,9 +39,13 @@
    <link href="/2016/06/11/helloworld/"/>
    <updated>2016-06-11T00:00:00+08:00</updated>
    <id>/2016/06/11/helloworld</id>
-   <content type="html">&lt;h1&gt;hello world&lt;/h1&gt;
+   <content type="html">&lt;p&gt;Updated on 2016-06-15&lt;/p&gt;
+
+&lt;h1&gt;hello world&lt;/h1&gt;
 
 &lt;h2&gt;我的第一篇文章&lt;/h2&gt;
+
+&lt;p&gt;lalal&lt;/p&gt;
 </content>
  </entry>
  
