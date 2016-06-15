@@ -26,7 +26,7 @@
         {% endif %}
       {% endfor %}
 
-      <span class="sidebar-nav-item">Updated on {{ page.last_modified_at | date: '%d-%b-%y' }}  </span>
+      <span class="sidebar-nav-item">Updated on {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }}  </span>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
