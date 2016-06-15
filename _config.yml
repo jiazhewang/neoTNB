@@ -9,7 +9,7 @@ permalink:        pretty
 title:               Neo TNB
 # tagline:             The Jekyll Butler
 # url:                 http://getpoole.com
-# paginate:            1
+paginate:            5
 baseurl:             / #""
 
 # Assets
@@ -23,7 +23,7 @@ sass:
 author:
   name:              Neo Wang
   # url:               https://twitter.com/mdo
-  # email:             markdotto@gmail.com
+  email:             neo.wang@vip.163.com
 
 # Custom vars
 # version:             2.0.0
@@ -34,4 +34,5 @@ author:
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-last-modified-at
 
