@@ -1,12 +1,12 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:            kramdown
+highlighter:         rouge  #pygments
 
 # Timezone
-# timezone:         Asia/Shanghai
+# timezone:          Asia/Shanghai
 
 # Permalinks
-permalink:        pretty
+permalink:           pretty
 
 # Setup
 title:               Neo TNB
