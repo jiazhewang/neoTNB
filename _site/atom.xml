@@ -4,7 +4,7 @@
  <title>Neo TNB</title>
  <link href="http://uncleneo.com//atom.xml" rel="self"/>
  <link href="http://uncleneo.com//"/>
- <updated>2016-06-20T16:28:03+08:00</updated>
+ <updated>2016-06-20T19:56:55+08:00</updated>
  <id>http://uncleneo.com/</id>
  <author>
    <name>Neo Wang</name>
@@ -17,9 +17,7 @@
    <link href="http://uncleneo.com//2016/06/19/%E5%B7%A5%E4%BD%9C%E4%B8%8E%E6%A2%A6%E6%83%B3/"/>
    <updated>2016-06-19T00:00:00+08:00</updated>
    <id>http://uncleneo.com//2016/06/19/工作与梦想</id>
-   <content type="html">&lt;p&gt;Updated on 2016-06-20&lt;/p&gt;
-
-&lt;p&gt;今天在知乎上看到这样一个问题：“25岁开始害怕30岁还碌碌无为，却不知道如何前进，该怎么办？”他说：“现在的工作不温不火，重复工作，跟公司领导谈了谈，领导说，如果你内心安于这份工作，这辈子也就这样了，需要你自己去学。我想学，可是我明白自己不想干这一行，但是又不知道自己该从事什么行业，不知道学什么，有前进的动力，却没有前进的方向？”&lt;/p&gt;
+   <content type="html">&lt;p&gt;今天在知乎上看到这样一个问题：“25岁开始害怕30岁还碌碌无为，却不知道如何前进，该怎么办？”他说：“现在的工作不温不火，重复工作，跟公司领导谈了谈，领导说，如果你内心安于这份工作，这辈子也就这样了，需要你自己去学。我想学，可是我明白自己不想干这一行，但是又不知道自己该从事什么行业，不知道学什么，有前进的动力，却没有前进的方向？”&lt;/p&gt;
 
 &lt;p&gt;从这个问题的关注量来看，这应该是一个比较普遍的问题了。在我和许多自由职业者以及想成为自由职业者的人的交流过程中，这也是一个经常被提及的状况。许多人不喜欢现在的工作，一想到五年十年以后看得见的未来就绝望，但却不知道自己还能做些什么，也不知道自己应不应该去追求自己的梦想。关于工作和梦想这个话题，我很想谈一谈我自己的看法。&lt;/p&gt;
 
@@ -93,9 +91,7 @@
    <link href="http://uncleneo.com//2016/06/17/%E6%83%B3%E4%B8%BA%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A%E8%80%85%E4%BB%AC%E5%81%9A%E4%BA%9B%E4%BA%8B/"/>
    <updated>2016-06-17T00:00:00+08:00</updated>
    <id>http://uncleneo.com//2016/06/17/想为自由职业者们做些事</id>
-   <content type="html">&lt;p&gt;Updated on 2016-06-20&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;初识自由职业者&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;section&quot;&gt;初识自由职业者&lt;/h2&gt;
 
 &lt;p&gt;说起来很洋气，自由职业者这个词我早就听过，但一开始并没有任何触动。真正了解这个概念要从它的英文名字 Freelancer 说起。我在英国留学的那几年里，比较喜欢了解外面的世界，所以也游历了一些地方。背包旅行时，在世界各地的青旅中结识了不少有意思的伙伴。其中有一群人，他们没有固定的工作，但是都有非常厉害的一技之长，他们依靠这些技能远程工作，于是他们就可以一边工作一边周游世界。当时我都看傻了，心想原来还可以这么玩！那群人告诉我他们是 freelancer，我当时查了一下字典，发现中文翻译过来其实就是自由职业者。于是我对这个人群有了新的认识，或者说是羡慕。那时还在醉心于计算机技术的我就梦想着，有朝一日可以今天在巴黎写代码，明天去罗马改BUG。&lt;/p&gt;
 
@@ -122,6 +118,200 @@
 &lt;p&gt;美国如今已经有三分之一的劳动力是以自由职业形式存在的，我坚信在中国自由职业和新时代的工作方式将会成为未来十年内的大趋势。而现在国内能为自由职业者提供的基础设施和社会氛围还完全没有达到我们理想中的标准。所以，我们希望搭建一个真正让自由职业者有归属感的社区。为自由职业者提供最专业的帮助和服务。为买方和卖方对接项目和交易需求。从简直、第二职业同步做起，为自由职业人群发声，慢慢培养中国的自由职业文化。为中国的自由职业者营造行业氛围和开拓市场。&lt;/p&gt;
 
 &lt;p&gt;希望有朝一日，中国的年轻人能有更广阔的空间去实现他们的理想和价值，去体验他们渴望的生活和工作方式。而如果那一天到来，希望我们在这个时代变革的过程中起到了那么一点点推动的作用。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>JSP项目在MAC下的搭建_以本人LPSS项目为例</title>
+   <link href="http://uncleneo.com//2014/07/13/JSP%E9%A1%B9%E7%9B%AE%E5%9C%A8MAC%E4%B8%8B%E7%9A%84%E6%90%AD%E5%BB%BA-%E4%BB%A5%E6%9C%AC%E4%BA%BA-LPSS-%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BE%8B/"/>
+   <updated>2014-07-13T00:00:00+08:00</updated>
+   <id>http://uncleneo.com//2014/07/13/JSP项目在MAC下的搭建——以本人 LPSS 项目为例</id>
+   <content type="html">&lt;blockquote&gt;本文介绍了使用 Apache Tomcat 和 MySQL 来在 mac 系统上搭建一个 JSP 开发测试环境。也包括了 Eclipse 上的设置。文内以本人大学时的一个 JSP 项目 LPSS 来举例。&lt;/blockquote&gt;
+
+&lt;h1&gt;1. Tomcat 在 mac 下的安装与配置&lt;/h1&gt;
+
+&lt;p&gt;本节借鉴原帖：&lt;a href=&quot;http://wolfpaulus.com/jounal/mac/tomcat7/&quot;&gt;http://wolfpaulus.com/jounal/mac/tomcat7/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;1.1 Java 的安装和配置&lt;/h2&gt;
+
+&lt;p&gt;在安装 Tomcat 之前，我们需要确认我们安装了最新版本的 Java。比如如果要安装 Tomcat7，我们至少要安装 Java7。但是 mac 系统有的并没有安装这么高版本的 Java，比如 OS X 10.9（Mavericks）就没有。那么我们就首先要安装和配置 Java。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;访问&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/index.html&quot;&gt;Oracle 的 Java SE 下载页面&lt;/a&gt;，找到我们要安装的JDK版本，比如目前最新的是  jdk-8u5-macosx-x64.dmg ，下载下来。&lt;/li&gt;
+  &lt;li&gt;下载完成后打开，根据提示，很轻松就可以安装好了&lt;/li&gt;
+  &lt;li&gt;打开终端 Terminal，输入
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;java -version&lt;/pre&gt; 
+应该大约会显示这样的结果：
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;java version &quot;1.8.0_05&quot;
+Java(TM) SE Runtime Environment (build 1.8.0_05-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.5-b02, mixed mode)&lt;/pre&gt; 
+
+注意这里的版本号码。&lt;/li&gt;
+  &lt;li&gt;PS: 新安装的 JDK 的安装路径通常在 /Library/Java/JavaVirtualMachines/jak***&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;安装完 Java 以后，我们就可以继续安装 Tomcat 了。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2&gt;1.2 Tomcat 的安装&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;首先在 &lt;a href=&quot;http://tomcat.apache.org/download-70.cgi&quot;&gt;Apache Tomcat 的网站&lt;/a&gt;上下载Tomcat，这里以 Tomcat7 为例，下载 Binary Distributions - Core - zip 链接下的文件。&lt;/li&gt;
+  &lt;li&gt;解压 zip 包，假设包被下载到用户 Download 文件夹下，那么解压后的文件夹应该是
+&lt;pre class=&quot;lang:default decode:true &quot;&gt;~/Downloads/apache-tomcat-7.0.54&lt;/pre&gt; 
+&lt;/li&gt;
+  &lt;li&gt;转移文件夹到 /usr/local 路径下，可以使用终端命令：
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;sudo mkdir -p /usr/local
+sudo mv ~/Downloads/apache-tomcat-7.0.54 /usr/local&lt;/pre&gt; 
+&lt;/li&gt;
+  &lt;li&gt;为了方便以后的操作和版本更新，我们在 /Library 下创建一个快捷链接，可以使用终端命令：
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;sudo rm -f /Library/Tomcat
+sudo ln -s /usr/local/apache-tomcat-7.0.54 /Library/Tomcat&lt;/pre&gt; 
+&lt;/li&gt;
+  &lt;li&gt;更改此文件夹的权限级别：
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;sudo chown -R &amp;lt;your_username&amp;gt; /Library/Tomcat&lt;/pre&gt; 
+&lt;/li&gt;
+  &lt;li&gt;设置脚本可执行：
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;sudo chmod +x /Library/Tomcat/bin/*.sh&lt;/pre&gt; 
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;这样一来，Tomcat 就安装好了。&lt;/p&gt;
+
+&lt;h2&gt;1.3 Tomcat 的使用&lt;/h2&gt;
+
+&lt;p&gt;通常 Tomcat 有三种启动方式：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;通过Terminal 命令直接启动。在 Terminal 中输入命令：startup 脚本来启动，shutdown 脚本来停止。
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;/Library/Tomcat/bin/startup.sh
+/Library/Tomcat/bin/shutdown.sh&lt;/pre&gt; 
+&lt;/li&gt;
+  &lt;li&gt;通过 Activata 的图形化界面工具 &lt;a href=&quot;http://www.activata.co.uk/downloads/&quot;&gt;Tomcat Controller&lt;/a&gt; 来启动和关闭。&lt;/li&gt;
+  &lt;li&gt;在 Eclipse 中启动，将会在后面的章节中提到&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;启动之后，在浏览器中输入http://localhost:8080，就会看到汤姆猫页面了。&lt;/p&gt;
+
+&lt;p&gt;在 Tomcat 安装路径下的 webapps 文件夹中放入你的站点的文件夹，就可以相应的访问了。&lt;/p&gt;
+
+&lt;p&gt;(如果不适用 eclipse 而要直接搭建 LPSS 项目，需要将 /build/classes 文件夹移动到 /WebContent/WEB-INF/ 路径下，然后将整个 WebContent 文件夹重命名为 LPSS，移动到 tomcat 安装路径的 /webapps 文件夹下。&lt;/p&gt;
+
+&lt;p&gt;再设置完 mysql，导入数据库文件之后，确保 tomcat 启动。之后访问 http://localhost:8080/LPSS 即可）&lt;/p&gt;
+
+&lt;h1&gt;2. MySQL 在 mac 下的安装与配置&lt;/h1&gt;
+
+&lt;p&gt;本节下载与安装部分借鉴原帖地址：&lt;a href=&quot;http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html&quot;&gt;http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;2.1 下载 MySQL&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;访问&lt;a href=&quot;http://www.mysql.com/downloads/&quot;&gt;MySQL 官网的下载页面&lt;/a&gt;，点击最底下的 MySQL Community Edition 下的下载链接 Download from MySQL Developer Zone。&lt;/li&gt;
+  &lt;li&gt;找到 MySQL Community Server， 点击下面的下载链接 DOWNLOAD。&lt;/li&gt;
+  &lt;li&gt;选择系统类型 Mac OS X，在下面的版本中，按照系统需求来选择，这里我选择的是64位 dmg 文件：Mac OS X 10.7 (x86, 64-bit), DMG Archive &lt;/li&gt;
+  &lt;li&gt;跳转到注册界面，不用注册，直接选择下面小字“No thanks, just start my download.” （然后可能需要随便选择一个下载服务器） 然后开始下载。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;2.2 安装 MySQL&lt;/h2&gt;
+
+&lt;p&gt;打开刚才下载的安装文件，分别安装：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;mysql-5.6.19-osx10.7-x86_64.pkg: 主程序包&lt;/li&gt;
+  &lt;li&gt;MySQL_StartupItem.pkg：启动项&lt;/li&gt;
+  &lt;li&gt;MySQL.prefPane：系统设置里的 MySQL 偏好设置&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;进入系统偏好设置，会看到一个 MySQL 模块，里面可以启动 MySQL。&lt;/p&gt;
+
+&lt;p&gt;如果需要安装 GUI 工具，可以借鉴&lt;a href=&quot;http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html&quot;&gt;原帖其余部分&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2&gt;2.3 终端Terminal中使用 MySQL&lt;/h2&gt;
+
+&lt;p&gt;确保 MySQL Server 启动。&lt;/p&gt;
+
+&lt;p&gt;打开 Terminal，输入 mysql 命令，就可以直接进入MySQL。但是，通常我们需要以用户登录：输入命令&lt;/p&gt;
+
+&lt;pre class=&quot;lang:sh decode:true &quot;&gt;mysql -h hostname -u username -p&lt;/pre&gt;
+
+&lt;p&gt;这里，hostname 替换成服务器名称，比如本地 localhost。
+username 替换为用户名称，比如 root。
+-p 之后回车，需要输入密码。&lt;/p&gt;
+
+&lt;p&gt;之后就可以进入 MySQL 操作了。比如可以尝试一下 show databases；命令。&lt;/p&gt;
+
+&lt;p&gt;基础的 MySQL 指令可以参考&lt;a href=&quot;http://database.51cto.com/art/201005/200739.htm&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2&gt;2.4 SQL 文件的导入&lt;/h2&gt;
+
+&lt;p&gt;比如在 LPSS 项目中，我们需要导入数据库文件 lpss.sql&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;首先从 Terminal 进入 MySQL，然后创建同名数据库
+ 
+&lt;pre class=&quot;lang:mysql decode:true &quot;&gt;CREATE DATABASE lpss;&lt;/pre&gt; 
+
+&lt;/li&gt;
+  &lt;li&gt;exit; 退出 MySQL&lt;/li&gt;
+  &lt;li&gt;在 Terminal 中输入导入命令：
+ 
+&lt;pre class=&quot;lang:mysql decode:true &quot;&gt;mysql -h localhost -u root -p lpss &amp;lt; ~/Download/lpss.sql &lt;/pre&gt; 
+
+这里第一个 lpss 是数据库名，如果不是本项目可以替换成别的对应名字。
+
+~/Download/lpss.sql 是假设的存放 lpss.sql 文件的路径，如果不是可以改成相应路径。
+
+之后要输入密码。
+
+&lt;/li&gt;
+
+&lt;/ol&gt;
+
+&lt;p&gt;这样，数据库文件就被导入了。&lt;/p&gt;
+
+&lt;h1&gt;3. Eclipse 中的设置&lt;/h1&gt;
+
+&lt;h2&gt;3.1 将项目导入 Eclipse&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;选择 File -&amp;gt; Import -&amp;gt; General -&amp;gt; 
+如果是打包好的项目文件就选择 Archive File
+如果是已经解压了的文件夹就选择 Existing Projects into Workspace
+&lt;/li&gt;
+  &lt;li&gt;选择文件包或者文件夹根目录，确定。&lt;/li&gt;
+  &lt;li&gt;导入项目后，可能会发现一大堆红叉叉，表明文件有问题，没有关系。打开一看都是 HttpServlet 的报错，等我们配置好 Tomcat 就不会有问题了。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;3.2 在 Eclipse 中配置 Tomcat&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;首先确保已经做好之前的 Tomcat 安装和配置工作，Library 中 link 好了 Tomcat。&lt;/li&gt;
+  &lt;li&gt;确保 Eclipse 处于 Java EE 模式下，选中我们的项目，点选底部框中的 Servers 标签页，创建一个新 Server。&lt;/li&gt;
+  &lt;li&gt;Apache -&amp;gt; Tomcat (v7.0) Server -&amp;gt; Next -&amp;gt; 设置 Tomcat 安装路径 -&amp;gt; 如有需要，设置 JRE 版本 -&amp;gt; Finish&lt;/li&gt;
+  &lt;li&gt;顿时红叉叉基本消灭了，但是还是有的页面（比如 LPSS 中的 about.jsp）有问题，比如“The superclass &quot;javax.servlet.http.HttpServlet&quot; was not found on the Java Build Path”&lt;/li&gt;
+  &lt;li&gt;这是因为库中没加入 Tomcat，解决办法有以下三种：
+
+在项目上右击 -&amp;gt; 属性 Properties -&amp;gt;
+&lt;ul&gt;
+  &lt;li&gt;Java Build Path -&amp;gt; Add Library...-&amp;gt; Server Runtime -&amp;gt; Apache Tomcat -&amp;gt; Finish.&lt;/li&gt;
+  &lt;li&gt;Java Build Path (Tab) -&amp;gt; Add External JARs -&amp;gt; locate the servlet api jar implementation (if Tomcat - its named servlet-api.jar) -&amp;gt; click OK.&lt;/li&gt;
+  &lt;li&gt;Check on Apache Tomcat v7.0 under Targeted Runtime and it works.&lt;/li&gt;
+
+&lt;/ul&gt;
+总之就是给项目加入 Tomcat 的库。
+&lt;/li&gt;
+  &lt;li&gt;然后红叉叉就都没有了,Tomcat 在 Eclipse 里的配置就基本完成了。试一试吧，在 Tomcat Server 上右击-运行。然后打开浏览器，输入地址 localhost:8080/ 看一看，竟然发现了一个404！不必惊慌，这是因为 Eclipse 在 workspace 中创建 Tomcat文件夹时忘记把 ROOT 文件夹拷贝过去了，所以我们只要做下面这一步。&lt;/li&gt;
+  &lt;li&gt;把 Tomcat 安装目录下的 ROOT 文件夹复制到 workspace 下，由于涉及到隐藏文件夹，建议使用 Terminal。打开终端 Terminal，输入
+
+cp -r /Library/Tomcat/webapps/ROOT [你的 eclipse 的 workspace 的根目录]/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/
+
+然后刷新一下 localhost:8080/，汤姆猫出现了！&lt;/li&gt;
+  &lt;li&gt;右击 Tomcat Server，选择add and remove，把你要运行的项目（比如这里的 LPSS）移到右边，然后确认。如果这一步有问题的话，很可能是 java 版本或者 tomcat 版本有问题，请使用相应并满足项目需求的版本。另外一个可能的问题是，项目不是 Web Dynamic Module。右击项目，搜索 project facet，选上 Web Dynamic Module，或者在属性-Java Build Path中添加Web App Libraries。&lt;/li&gt;
+  &lt;li&gt;现在，打开浏览器，输入地址 localhost:8080/项目名 比如 localhost:8080/LPSS 就可以测试访问我们制作的网站了。
+&amp;lt;/ol&amp;gt;
+
+&lt;h1&gt;LPSS 项目代码中几处需要调整的地方&lt;/h1&gt;
+&lt;/li&gt;&lt;/ol&gt;
 </content>
  </entry>
  
