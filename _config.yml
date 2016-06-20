@@ -10,11 +10,12 @@ permalink:           pretty
 
 # Setup
 title:               Neo TNB
-# tagline:             The Jekyll Butler
-# url:                 http://getpoole.com
+tagline:             Tree New Bee
+description:         -· &nbsp;  Neo TreeNewBee  &nbsp; ·-
+url:                 http://uncleneo.com/
 paginate:            5
 baseurl:             / #""
-excerpt_separator:  '<!-- more -->'
+excerpt_separator:   '<!-- more -->'
 
 # Assets
 #
@@ -26,7 +27,7 @@ sass:
 # About/contact
 author:
   name:              Neo Wang
-  # url:               https://twitter.com/mdo
+  url:               http://uncleneo.com/
   email:             neo.wang@vip.163.com
 
 # Custom vars
