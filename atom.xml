@@ -4,13 +4,56 @@
  <title>Neo TNB</title>
  <link href="http://uncleneo.com//atom.xml" rel="self"/>
  <link href="http://uncleneo.com//"/>
- <updated>2016-06-20T19:56:55+08:00</updated>
+ <updated>2016-06-21T16:21:02+08:00</updated>
  <id>http://uncleneo.com/</id>
  <author>
    <name>Neo Wang</name>
    <email>neo.wang@vip.163.com</email>
  </author>
 
+ 
+ <entry>
+   <title>favicon那些事儿</title>
+   <link href="http://uncleneo.com//2016/06/21/favicon%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/"/>
+   <updated>2016-06-21T00:00:00+08:00</updated>
+   <id>http://uncleneo.com//2016/06/21/favicon那些事儿</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;这篇文章介绍了 UI 设计师和 web 工程师们都应该了解的 favicon。
+顺便解释了一下一些更深入的文件格式知识。
+以及 favicon 的制作和在网页代码中的使用方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;favicon&quot;&gt;啥是favicon呀?&lt;/h2&gt;
+
+&lt;p&gt;favicon， 也就是 favorite icon（收藏图标）的简称。当我们在浏览器上访问网站的时候，每个网站的 favicon 会出现在浏览器标签栏对应网站的标签上，网站标题的左边。当你收藏一个网站的时候，可以在收藏夹里看到这个图标，以此来表示对应网站。通常，网站会直接使用自己或者公司的 logo 来做 favicon。&lt;/p&gt;
+
+&lt;p&gt;favicon 是网站设计和开发中最基础的环节之一，是所有 UI 设计师和 web 工程师都应该了解的内容。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;ico-vs-png&quot;&gt;格式：&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt; vs &lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;通常，favicon 会使用&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt;后缀格式，&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt;文件是可以存储单个图案、多尺寸、多色板的图标文件。一个图标实际上是多张不同格式的图片的集合体，并且还包含了一定的透明区域。&lt;/p&gt;
+
+&lt;p&gt;但是，随着新协议的允许，现在的标准越来越流行使用&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;格式的 favicon 了。那么&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;到底好在哪里呢？&lt;/p&gt;
+
+&lt;h3 id=&quot;png&quot;&gt;更易制作的&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;作为大家熟悉的图片格式，&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;可以通过诸多软件制作，Photoshop、AI、sketch 等主流设计类软件都支持&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;文件的编辑和导出。&lt;/p&gt;
+
+&lt;p&gt;相比之下，&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt;文件不太被熟知，更多被应用在微软的 Windows 系统中。许多设计类工具，包括最主流的 Photoshop 等都不支持&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt;文件的编辑和导出。不太熟练的设计师和开发者可能需要搜索许多方法来制作&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt;文件。比如说类似&lt;a href=&quot;http://convertico.com/&quot;&gt;convertico.com&lt;/a&gt;的一些在线的格式转换网站，或者是一些 app 工具，就像 Mac 上的 &lt;a href=&quot;https://itunes.apple.com/cn/app/icon-slate/id439697913?mt=12&quot;&gt;Icon Slate&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;虽然做多了以后都不会很复杂，但是&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;还是更接地气一些。&lt;/p&gt;
+
+&lt;h3 id=&quot;png-1&quot;&gt;显示效果更好的&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;有一种说法是，除了是更加通用的图片格式以外，&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;的显示效果更好。理由是，&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;格式允许使用&lt;strong&gt;8位 alpha 通道的透明度（ 8-bit alpha-channel transparency）&lt;/strong&gt;，这可以使得你的 favicon 在一些特殊背景色下有更好的展示效果。有些浏览器的标签栏是白色的，有些是灰色的，有些还可以套用不同的浏览器主题，变成彩色的。在各种背景色下，&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;格式的 favicon 因为更高级的透明度机制，都可以有较好的显示效果。&lt;/p&gt;
+
+&lt;p&gt;但是也有说法是，&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt;也支持32位色的图片，也就是也支持8位的透明度。说道这个问题，不免就要提一提这些都是什么意思了。&lt;/p&gt;
+
+&lt;p&gt;当我们用数字来存储一张图片，可以想象无非就是裁好一张画布有多大，把画布分割成数以万计的小方格（像素点），每种方格上用记号表示一种颜色（比如用5201314表示屎色），大概就是这样子。但是颜色有那么多种，我们人眼的感光细胞分为视杆细胞和视锥细胞，其中视锥细胞用来感受颜色，我们人类有三种，所以就有三原色，而皮皮虾有16种，所以……额，不谈了吧，扯远了。想听冷知识的可以&lt;img src=&quot;http://uncleneo.com//assets/img/pipixia.jpg&quot; alt=&quot;戳这里&quot; /&gt;。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>工作与梦想</title>
