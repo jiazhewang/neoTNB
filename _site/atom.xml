@@ -4,7 +4,7 @@
  <title>Neo TNB</title>
  <link href="http://uncleneo.com//atom.xml" rel="self"/>
  <link href="http://uncleneo.com//"/>
- <updated>2016-06-21T20:52:38+08:00</updated>
+ <updated>2016-06-21T21:14:02+08:00</updated>
  <id>http://uncleneo.com/</id>
  <author>
    <name>Neo Wang</name>
@@ -83,9 +83,7 @@
 
 &lt;p&gt;其实很简单，其实很自然…在 HTML 代码的&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;里加一行代码，引用你的&lt;code class=&quot;highlighter-rouge&quot;&gt;favicon.ico&lt;/code&gt;文件就可以了。&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link href=&quot;/host/favicon.ico&quot; rel=&quot;shortcut icon&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/host/favicon.ico&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;一般我们会直接把这个文件就命名为&lt;code class=&quot;highlighter-rouge&quot;&gt;favicon.ico&lt;/code&gt;。然后放在网站的根目录下，不会和其他图片文件放在一起。这样做是因为有一些浏览器（比如360安全浏览器，呵呵）会忽略你的端口啊路径啊什么的，直接优先访问根目录下的&lt;code class=&quot;highlighter-rouge&quot;&gt;favicon.ico&lt;/code&gt;文件。所以，为了确保你的 favicon 起作用，或者说让兼容性更好，我们要把它放在根目录下，也就是&lt;code class=&quot;highlighter-rouge&quot;&gt;http://host/favicon.ico&lt;/code&gt;，而不是&lt;code class=&quot;highlighter-rouge&quot;&gt;http://host/somepath/favicon.ico&lt;/code&gt;。比如我的网站，就是放在&lt;code class=&quot;highlighter-rouge&quot;&gt;http://uncleneo.com/favicon.ico&lt;/code&gt;。&lt;/p&gt;
 
@@ -97,9 +95,7 @@
 
 &lt;p&gt;比如说，我们先来看 IE 这个愚蠢的浏览器。在 IE11 版本之前，它都是不支持用&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;来做 favicon 的。所以为了它之前的版本，我们要在代码开头为 IE9 它老人家以及比它更老的人家加上一行：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!--[if IE]&amp;gt;&amp;lt;link rel=&quot;shortcut icon&quot; href=&quot;path/to/favicon.ico&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if IE]&amp;gt;&amp;lt;link rel=&quot;shortcut icon&quot; href=&quot;path/to/favicon.ico&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;这里插播一个笑话：由于 IE10 既不支持&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;又不支持条件注释，所以它在这种情况下…没法显示 favicon！好在 IE10 也没什么人用，这里我们选择忽略它！谁是 IE10？ 我不认识。另外，鼓励所有程序员和设计师使用&lt;code class=&quot;highlighter-rouge&quot;&gt;Google Chrome&lt;/code&gt;浏览器。不用挑了，就是它！&lt;/p&gt;
@@ -109,17 +105,13 @@
 
 &lt;p&gt;对于&lt;code class=&quot;highlighter-rouge&quot;&gt;.png&lt;/code&gt;，标准的做法是，加入这样一行：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;icon&quot; href=&quot;path/to/favicon.png&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;path/to/favicon.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;这个&lt;code class=&quot;highlighter-rouge&quot;&gt;favicon.png&lt;/code&gt;应该是&lt;code class=&quot;highlighter-rouge&quot;&gt;196x196 px&lt;/code&gt;的尺寸，这样可以兼容几乎所有设备。&lt;/p&gt;
 
 &lt;p&gt;要想让它也适用于移动设备上的touch icon，我们可以用苹果的私有属性：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;apple-touch-icon-precomposed.png&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon-precomposed&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon-precomposed.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;设置&lt;code class=&quot;highlighter-rouge&quot;&gt;apple-touch-icon-precomposed&lt;/code&gt;属性（预处理）不会让你的图标在 iOS 上加上苹果默认的那种图标反光，如果要加上那种效果，可以改用&lt;code class=&quot;highlighter-rouge&quot;&gt;apple-touch-icon&lt;/code&gt;属性。其他一些厂商（如黑莓）也会沿用&lt;code class=&quot;highlighter-rouge&quot;&gt;apple-touch-icon-precomposed&lt;/code&gt;属性，他们并没有那种反光效果。&lt;/p&gt;
@@ -137,16 +129,14 @@
 
 &lt;p&gt;&lt;strong&gt;综上&lt;/strong&gt;，你为了 favicon 所做的代码应该是这个样子：&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- For IE 9 and below. ICO should be 32x32 pixels in size --&amp;gt;
-&amp;lt;!--[if IE]&amp;gt;&amp;lt;link rel=&quot;shortcut icon&quot; href=&quot;path/to/favicon.ico&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- For IE 9 and below. ICO should be 32x32 pixels in size --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!--[if IE]&amp;gt;&amp;lt;link rel=&quot;shortcut icon&quot; href=&quot;path/to/favicon.ico&quot;&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span&gt;
 
-&amp;lt;!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --&amp;gt; 
-&amp;lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;apple-touch-icon-precomposed.png&quot;&amp;gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --&amp;gt;&lt;/span&gt; 
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon-precomposed&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon-precomposed.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
 
-&amp;lt;!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. --&amp;gt;
-&amp;lt;link rel=&quot;icon&quot; href=&quot;path/to/favicon.png&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;path/to/favicon.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;最后，关于 favicon 的更多设计信息，可以参考以下几个网站：&lt;/p&gt;
 
