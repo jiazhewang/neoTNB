@@ -1,0 +1,43 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge  #pygments
+
+# Timezone
+# timezone:          Asia/Shanghai
+
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Neo TNB
+tagline:             Tree New Bee
+description:         -· &nbsp;  Neo TreeNewBee  &nbsp; ·-
+url:                 http://uncleneo.com/
+paginate:            5
+baseurl:             / #""
+excerpt_separator:   '<!-- more -->'
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Neo Wang
+  url:               http://uncleneo.com/
+  email:             neo.wang@vip.163.com
+
+# Custom vars
+# version:             2.0.0
+# github:
+#   repo:              https://github.com/poole/poole
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-last-modified-at
+
