@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- set how the text shows on the tab of the browsers -->
+  <title>
+    
+      favicon那些事儿 &middot; Neo TNB
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" type="text/css" href="/public/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/public/css/font-awesome.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Neo TNB
+        </a>
+      </h1>
+      <p class="lead">-· &nbsp;  Neo TreeNewBee  &nbsp; ·-</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/Freecens/">Freecens</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about%20me/">About me</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+
+      <span class="sidebar-nav-item">Updated on 2016-06-21  </span>
+    </nav>
+
+    <p>&copy; 2016. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">favicon那些事儿</h1>
+  <span class="post-date">2016-06-21 --- updated on 2016-06-21</span>
+  <blockquote>
+  <p>这篇文章介绍了 UI 设计师和 web 工程师们都应该了解的 favicon。
+顺便解释了一下一些更深入的文件格式知识。
+以及 favicon 的制作和在网页代码中的使用方法。</p>
+</blockquote>
+
+<h2 id="favicon">啥是favicon呀?</h2>
+
+<p>favicon， 也就是 favorite icon（收藏图标）的简称。当我们在浏览器上访问网站的时候，每个网站的 favicon 会出现在浏览器标签栏对应网站的标签上，网站标题的左边。当你收藏一个网站的时候，可以在收藏夹里看到这个图标，以此来表示对应网站。通常，网站会直接使用自己或者公司的 logo 来做 favicon。</p>
+
+<p>favicon 是网站设计和开发中最基础的环节之一，是所有 UI 设计师和 web 工程师都应该了解的内容。</p>
+
+<!-- more -->
+
+<h2 id="ico-vs-png">格式：<code class="highlighter-rouge">.ico</code> vs <code class="highlighter-rouge">.png</code></h2>
+
+<p>通常，favicon 会使用<code class="highlighter-rouge">.ico</code>后缀格式，<code class="highlighter-rouge">.ico</code>文件是可以存储单个图案、多尺寸、多色板的图标文件。一个图标实际上是多张不同格式的图片的集合体，并且还包含了一定的透明区域。</p>
+
+<p>但是，随着新协议的允许，现在的标准越来越流行使用<code class="highlighter-rouge">.png</code>格式的 favicon 了。那么<code class="highlighter-rouge">.png</code>到底好在哪里呢？</p>
+
+<h3 id="png">更易制作的<code class="highlighter-rouge">.png</code></h3>
+
+<p>作为大家熟悉的图片格式，<code class="highlighter-rouge">.png</code>可以通过诸多软件制作，Photoshop、AI、sketch 等主流设计类软件都支持<code class="highlighter-rouge">.png</code>文件的编辑和导出。</p>
+
+<p>相比之下，<code class="highlighter-rouge">.ico</code>文件不太被熟知，更多被应用在微软的 Windows 系统中。许多设计类工具，包括最主流的 Photoshop 等都不支持<code class="highlighter-rouge">.ico</code>文件的编辑和导出。不太熟练的设计师和开发者可能需要搜索许多方法来制作<code class="highlighter-rouge">.ico</code>文件。比如说类似<a href="http://convertico.com/">convertico.com</a>的一些在线的格式转换网站，或者是一些 app 工具，就像 Mac 上的 <a href="https://itunes.apple.com/cn/app/icon-slate/id439697913?mt=12">Icon Slate</a>。</p>
+
+<p>虽然做多了以后都不会很复杂，但是<code class="highlighter-rouge">.png</code>还是更接地气一些。</p>
+
+<h3 id="png-1">显示效果更好的<code class="highlighter-rouge">.png</code></h3>
+
+<p>有一种说法是，除了是更加通用的图片格式以外，<code class="highlighter-rouge">.png</code>的显示效果更好。理由是，<code class="highlighter-rouge">.png</code>格式允许使用<strong>8位 alpha 通道的透明度（ 8-bit alpha-channel transparency）</strong>，这可以使得你的 favicon 在一些特殊背景色下有更好的展示效果。有些浏览器的标签栏是白色的，有些是灰色的，有些还可以套用不同的浏览器主题，变成彩色的。在各种背景色下，<code class="highlighter-rouge">.png</code>格式的 favicon 因为更高级的透明度机制，都可以有较好的显示效果。</p>
+
+<p>但是也有说法是，<code class="highlighter-rouge">.ico</code>也支持32位色的图片，也就是也支持8位的透明度。说道这个问题，不免就要提一提这些都是什么意思了。</p>
+
+<p>当我们用数字来存储一张图片，可以想象无非就是裁好一张画布有多大，把画布分割成数以万计的小方格（像素点），每种方格上用记号表示一种颜色（比如用5201314表示屎色），大概就是这样子。但是颜色有那么多种，我们人眼的感光细胞分为视杆细胞和视锥细胞，其中视锥细胞用来感受颜色，我们人类有三种，所以就有三原色，而皮皮虾有16种，所以……额，不谈了吧，扯远了。想听冷知识的可以<img src="http://uncleneo.com//assets/img/pipixia.jpg" alt="戳这里" />。</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/06/19/%E5%B7%A5%E4%BD%9C%E4%B8%8E%E6%A2%A6%E6%83%B3/">
+            工作与梦想
+            <small>19 Jun 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/06/17/%E6%83%B3%E4%B8%BA%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A%E8%80%85%E4%BB%AC%E5%81%9A%E4%BA%9B%E4%BA%8B/">
+            想为自由职业者们做些事
+            <small>17 Jun 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2014/07/13/JSP%E9%A1%B9%E7%9B%AE%E5%9C%A8MAC%E4%B8%8B%E7%9A%84%E6%90%AD%E5%BB%BA-%E4%BB%A5%E6%9C%AC%E4%BA%BA-LPSS-%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BE%8B/">
+            JSP项目在MAC下的搭建_以本人LPSS项目为例
+            <small>13 Jul 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+    </div>
+
+  </body>
+</html>
