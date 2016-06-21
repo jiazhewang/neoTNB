@@ -4,7 +4,7 @@
  <title>Neo TNB</title>
  <link href="http://uncleneo.com//atom.xml" rel="self"/>
  <link href="http://uncleneo.com//"/>
- <updated>2016-06-21T16:21:02+08:00</updated>
+ <updated>2016-06-21T16:23:28+08:00</updated>
  <id>http://uncleneo.com/</id>
  <author>
    <name>Neo Wang</name>
@@ -51,7 +51,7 @@
 
 &lt;p&gt;但是也有说法是，&lt;code class=&quot;highlighter-rouge&quot;&gt;.ico&lt;/code&gt;也支持32位色的图片，也就是也支持8位的透明度。说道这个问题，不免就要提一提这些都是什么意思了。&lt;/p&gt;
 
-&lt;p&gt;当我们用数字来存储一张图片，可以想象无非就是裁好一张画布有多大，把画布分割成数以万计的小方格（像素点），每种方格上用记号表示一种颜色（比如用5201314表示屎色），大概就是这样子。但是颜色有那么多种，我们人眼的感光细胞分为视杆细胞和视锥细胞，其中视锥细胞用来感受颜色，我们人类有三种，所以就有三原色，而皮皮虾有16种，所以……额，不谈了吧，扯远了。想听冷知识的可以&lt;img src=&quot;http://uncleneo.com//assets/img/pipixia.jpg&quot; alt=&quot;戳这里&quot; /&gt;。&lt;/p&gt;
+&lt;p&gt;当我们用数字来存储一张图片，可以想象无非就是裁好一张画布有多大，把画布分割成数以万计的小方格（像素点），每种方格上用记号表示一种颜色（比如用5201314表示屎色），大概就是这样子。但是颜色有那么多种，我们人眼的感光细胞分为视杆细胞和视锥细胞，其中视锥细胞用来感受颜色，我们人类有三种，所以就有三原色，而皮皮虾有16种，所以……额，不谈了吧，扯远了。想听冷知识的可以&lt;img src=&quot;http://uncleneo.com//assets/img/pipixia.jpeg&quot; alt=&quot;戳这里&quot; /&gt;。&lt;/p&gt;
 </content>
  </entry>
  
