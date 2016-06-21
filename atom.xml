@@ -4,7 +4,7 @@
  <title>Neo TNB</title>
  <link href="http://uncleneo.com//atom.xml" rel="self"/>
  <link href="http://uncleneo.com//"/>
- <updated>2016-06-21T20:49:10+08:00</updated>
+ <updated>2016-06-21T20:52:38+08:00</updated>
  <id>http://uncleneo.com/</id>
  <author>
    <name>Neo Wang</name>
@@ -132,6 +132,8 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;提了苹果，顺带也提一下微软。微软 IE11 以上的磁贴设计，对 icon 的建议是涵盖一系列尺寸的透明图片。有了这些图片以后还需要建立一个&lt;code class=&quot;highlighter-rouge&quot;&gt;xml&lt;/code&gt;文件叫做&lt;code class=&quot;highlighter-rouge&quot;&gt;browserconfig.xml&lt;/code&gt;放到你站点的根目录下，然后 link 到页面中去。由于本人不太偏爱微软的东西，这里不细说了，对不起！各位可以去看&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/ie/dn455106%28v=vs.85%29.aspx&quot;&gt;微软的官方介绍&lt;/a&gt;。如果你竟然还想兼容 Windows Phone，那么也请去看&lt;a href=&quot;http://blogs.windows.com/windows_phone/b/wpdev/archive/2012/10/19/creating-a-custom-tile-to-link-to-your-website.aspx&quot;&gt;微软相关的介绍&lt;/a&gt;吧。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;总结&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;综上&lt;/strong&gt;，你为了 favicon 所做的代码应该是这个样子：&lt;/p&gt;
 
