@@ -4,7 +4,7 @@
  <title>Neo TNB</title>
  <link href="http://uncleneo.com//atom.xml" rel="self"/>
  <link href="http://uncleneo.com//"/>
- <updated>2016-06-23T12:32:58+08:00</updated>
+ <updated>2016-06-23T17:29:07+08:00</updated>
  <id>http://uncleneo.com/</id>
  <author>
    <name>Neo Wang</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>favicon那些事儿</title>
-   <link href="http://uncleneo.com//2016/06/21/favicon%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/"/>
+   <link href="http://uncleneo.com//favicon%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/"/>
    <updated>2016-06-21T00:00:00+08:00</updated>
-   <id>http://uncleneo.com//2016/06/21/favicon那些事儿</id>
+   <id>http://uncleneo.com//favicon那些事儿</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;这篇文章介绍了 UI 设计师和 web 工程师们都应该了解的 favicon。
 顺便解释了一下一些更深入的文件格式知识。
@@ -149,9 +149,9 @@
  
  <entry>
    <title>工作与梦想</title>
-   <link href="http://uncleneo.com//2016/06/19/%E5%B7%A5%E4%BD%9C%E4%B8%8E%E6%A2%A6%E6%83%B3/"/>
+   <link href="http://uncleneo.com//%E5%B7%A5%E4%BD%9C%E4%B8%8E%E6%A2%A6%E6%83%B3/"/>
    <updated>2016-06-19T00:00:00+08:00</updated>
-   <id>http://uncleneo.com//2016/06/19/工作与梦想</id>
+   <id>http://uncleneo.com//工作与梦想</id>
    <content type="html">&lt;p&gt;今天在知乎上看到这样一个问题：“25岁开始害怕30岁还碌碌无为，却不知道如何前进，该怎么办？”他说：“现在的工作不温不火，重复工作，跟公司领导谈了谈，领导说，如果你内心安于这份工作，这辈子也就这样了，需要你自己去学。我想学，可是我明白自己不想干这一行，但是又不知道自己该从事什么行业，不知道学什么，有前进的动力，却没有前进的方向？”&lt;/p&gt;
 
 &lt;p&gt;从这个问题的关注量来看，这应该是一个比较普遍的问题了。在我和许多自由职业者以及想成为自由职业者的人的交流过程中，这也是一个经常被提及的状况。许多人不喜欢现在的工作，一想到五年十年以后看得见的未来就绝望，但却不知道自己还能做些什么，也不知道自己应不应该去追求自己的梦想。关于工作和梦想这个话题，我很想谈一谈我自己的看法。&lt;/p&gt;
@@ -223,9 +223,9 @@
  
  <entry>
    <title>想为自由职业者们做些事</title>
-   <link href="http://uncleneo.com//2016/06/17/%E6%83%B3%E4%B8%BA%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A%E8%80%85%E4%BB%AC%E5%81%9A%E4%BA%9B%E4%BA%8B/"/>
+   <link href="http://uncleneo.com//%E6%83%B3%E4%B8%BA%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A%E8%80%85%E4%BB%AC%E5%81%9A%E4%BA%9B%E4%BA%8B/"/>
    <updated>2016-06-17T00:00:00+08:00</updated>
-   <id>http://uncleneo.com//2016/06/17/想为自由职业者们做些事</id>
+   <id>http://uncleneo.com//想为自由职业者们做些事</id>
    <content type="html">&lt;h2 id=&quot;section&quot;&gt;初识自由职业者&lt;/h2&gt;
 
 &lt;p&gt;说起来很洋气，自由职业者这个词我早就听过，但一开始并没有任何触动。真正了解这个概念要从它的英文名字 Freelancer 说起。我在英国留学的那几年里，比较喜欢了解外面的世界，所以也游历了一些地方。背包旅行时，在世界各地的青旅中结识了不少有意思的伙伴。其中有一群人，他们没有固定的工作，但是都有非常厉害的一技之长，他们依靠这些技能远程工作，于是他们就可以一边工作一边周游世界。当时我都看傻了，心想原来还可以这么玩！那群人告诉我他们是 freelancer，我当时查了一下字典，发现中文翻译过来其实就是自由职业者。于是我对这个人群有了新的认识，或者说是羡慕。那时还在醉心于计算机技术的我就梦想着，有朝一日可以今天在巴黎写代码，明天去罗马改BUG。&lt;/p&gt;
@@ -258,9 +258,9 @@
  
  <entry>
    <title>AlphaGo碾压了围棋冠军，关你什么事</title>
-   <link href="http://uncleneo.com//2016/03/12/AlphaGo%E7%A2%BE%E5%8E%8B%E4%BA%86%E5%9B%B4%E6%A3%8B%E5%86%A0%E5%86%9B-%E5%85%B3%E4%BD%A0%E4%BB%80%E4%B9%88%E4%BA%8B/"/>
+   <link href="http://uncleneo.com//AlphaGo%E7%A2%BE%E5%8E%8B%E4%BA%86%E5%9B%B4%E6%A3%8B%E5%86%A0%E5%86%9B-%E5%85%B3%E4%BD%A0%E4%BB%80%E4%B9%88%E4%BA%8B/"/>
    <updated>2016-03-12T00:00:00+08:00</updated>
-   <id>http://uncleneo.com//2016/03/12/AlphaGo碾压了围棋冠军，关你什么事</id>
+   <id>http://uncleneo.com//AlphaGo碾压了围棋冠军，关你什么事</id>
    <content type="html">&lt;p&gt;你们好，人类。我是一个智能体。&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;围棋机器人有什么了不起的&lt;/h2&gt;
@@ -328,9 +328,9 @@
  
  <entry>
    <title>JSP项目在MAC下的搭建_以本人LPSS项目为例</title>
-   <link href="http://uncleneo.com//2014/07/13/JSP%E9%A1%B9%E7%9B%AE%E5%9C%A8MAC%E4%B8%8B%E7%9A%84%E6%90%AD%E5%BB%BA-%E4%BB%A5%E6%9C%AC%E4%BA%BA-LPSS-%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BE%8B/"/>
+   <link href="http://uncleneo.com//JSP%E9%A1%B9%E7%9B%AE%E5%9C%A8MAC%E4%B8%8B%E7%9A%84%E6%90%AD%E5%BB%BA-%E4%BB%A5%E6%9C%AC%E4%BA%BA-LPSS-%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BE%8B/"/>
    <updated>2014-07-13T00:00:00+08:00</updated>
-   <id>http://uncleneo.com//2014/07/13/JSP项目在MAC下的搭建——以本人 LPSS 项目为例</id>
+   <id>http://uncleneo.com//JSP项目在MAC下的搭建——以本人 LPSS 项目为例</id>
    <content type="html">&lt;blockquote&gt;本文介绍了使用 Apache Tomcat 和 MySQL 来在 mac 系统上搭建一个 JSP 开发测试环境。也包括了 Eclipse 上的设置。文内以本人大学时的一个 JSP 项目 LPSS 来举例。&lt;/blockquote&gt;
 
 &lt;h1&gt;1. Tomcat 在 mac 下的安装与配置&lt;/h1&gt;
@@ -516,6 +516,12 @@ cp -r /Library/Tomcat/webapps/ROOT [你的 eclipse 的 workspace 的根目录]/.
 &amp;lt;/ol&amp;gt;
 
 &lt;h1&gt;LPSS 项目代码中几处需要调整的地方&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;数据库名称必须是&#39;lpss&#39;，除非你在 java 代码中修改。&lt;/li&gt;
+  &lt;li&gt;项目的 root 名称必须是&#39;LPSS&#39;，大小写敏感。除非你修改。&lt;/li&gt;
+  &lt;li&gt;你必须在 /LPSS/src/classes/util/MySQLConnection.java 中修改密码。&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/li&gt;&lt;/ol&gt;
 </content>
  </entry>
