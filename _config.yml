@@ -6,7 +6,12 @@ highlighter:         rouge  #pygments
 # timezone:          Asia/Shanghai
 
 # Permalinks
-permalink:           pretty
+permalink:           /:title/
+
+collections:
+  cookies:
+    output: true
+    permalink: /:path/
 
 # Setup
 title:               Neo TNB

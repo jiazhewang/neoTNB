@@ -16,6 +16,10 @@
     
   </title>
 
+  <!-- SEO -->
+  <meta name="keywords" content="JSP mac 配置 搭建 环境 tomcat java mysql">
+  <meta name="description" content="本文介绍了使用 Apache Tomcat 和 MySQL 来在 mac 系统上搭建一个 JSP 开发测试环境。也包括了 Eclipse 上的设置。文内以本人大学时的一个 JSP 项目 LPSS 来举例。">
+
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
@@ -75,6 +79,12 @@
           
         
       
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/tags/">Tags</a>
+          
         
       
 
@@ -277,6 +287,12 @@ cp -r /Library/Tomcat/webapps/ROOT [你的 eclipse 的 workspace 的根目录]/.
 &lt;/ol&gt;
 
 <h1>LPSS 项目代码中几处需要调整的地方</h1>
+
+<ol>
+  <li>数据库名称必须是'lpss'，除非你在 java 代码中修改。</li>
+  <li>项目的 root 名称必须是'LPSS'，大小写敏感。除非你修改。</li>
+  <li>你必须在 /LPSS/src/classes/util/MySQLConnection.java 中修改密码。</li>
+</ol>
 </li></ol>
 
 </div>
@@ -287,7 +303,7 @@ cp -r /Library/Tomcat/webapps/ROOT [你的 eclipse 的 workspace 的根目录]/.
     
       <li>
         <h3>
-          <a href="/2016/06/21/favicon%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/">
+          <a href="/favicon%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/">
             favicon那些事儿
             <small>21 Jun 2016</small>
           </a>
@@ -296,7 +312,7 @@ cp -r /Library/Tomcat/webapps/ROOT [你的 eclipse 的 workspace 的根目录]/.
     
       <li>
         <h3>
-          <a href="/2016/06/19/%E5%B7%A5%E4%BD%9C%E4%B8%8E%E6%A2%A6%E6%83%B3/">
+          <a href="/%E5%B7%A5%E4%BD%9C%E4%B8%8E%E6%A2%A6%E6%83%B3/">
             工作与梦想
             <small>19 Jun 2016</small>
           </a>
@@ -305,7 +321,7 @@ cp -r /Library/Tomcat/webapps/ROOT [你的 eclipse 的 workspace 的根目录]/.
     
       <li>
         <h3>
-          <a href="/2016/06/17/%E6%83%B3%E4%B8%BA%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A%E8%80%85%E4%BB%AC%E5%81%9A%E4%BA%9B%E4%BA%8B/">
+          <a href="/%E6%83%B3%E4%B8%BA%E8%87%AA%E7%94%B1%E8%81%8C%E4%B8%9A%E8%80%85%E4%BB%AC%E5%81%9A%E4%BA%9B%E4%BA%8B/">
             想为自由职业者们做些事
             <small>17 Jun 2016</small>
           </a>

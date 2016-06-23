@@ -6,7 +6,7 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date"><i class="fa fa-calendar"></i> {{ page.date | date: '%Y-%m-%d' }} &nbsp;</span>
   <span class="post-date"><i class="fa fa-refresh"></i> {{ site.time | date: '%Y-%m-%d' }} &nbsp;</span>
-  <span class="post-tag"><i class="fa fa-tag"></i> {{ page.tag }}</span>
+  <span class="post-tag"><i class="fa fa-tag"></i> {% if page.tags.size > 0 %}{{ page.tags | sort | join: " " }}{% endif %}</span>
   {{ content }}
 </div>
 

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: JSP项目在MAC下的搭建_以本人LPSS项目为例
-tag: 配置
+keywords: JSP mac 配置 搭建 环境 tomcat java mysql 
+description: 本文介绍了使用 Apache Tomcat 和 MySQL 来在 mac 系统上搭建一个 JSP 开发测试环境。也包括了 Eclipse 上的设置。文内以本人大学时的一个 JSP 项目 LPSS 来举例。
+tag: 
+- 配置
 ---
 
 <blockquote>本文介绍了使用 Apache Tomcat 和 MySQL 来在 mac 系统上搭建一个 JSP 开发测试环境。也包括了 Eclipse 上的设置。文内以本人大学时的一个 JSP 项目 LPSS 来举例。</blockquote>
@@ -191,3 +194,9 @@ cp -r /Library/Tomcat/webapps/ROOT [你的 eclipse 的 workspace 的根目录]/.
 </ol>
 
 <h1>LPSS 项目代码中几处需要调整的地方</h1>
+
+<ol>
+  <li>数据库名称必须是'lpss'，除非你在 java 代码中修改。</li>
+  <li>项目的 root 名称必须是'LPSS'，大小写敏感。除非你修改。</li>
+  <li>你必须在 /LPSS/src/classes/util/MySQLConnection.java 中修改密码。</li>
+</ol>
