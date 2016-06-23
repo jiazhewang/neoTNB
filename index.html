@@ -13,7 +13,9 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: '%Y-%m-%d' }} &nbsp;</span>
+    <span class="post-date"><i class="fa fa-refresh"></i> {{ site.time | date: '%Y-%m-%d' }} &nbsp;</span>
+    <span class="post-tag"><i class="fa fa-tag"></i> {{ post.tag }}</span>
 
     {{ post.excerpt }}
   </div>
