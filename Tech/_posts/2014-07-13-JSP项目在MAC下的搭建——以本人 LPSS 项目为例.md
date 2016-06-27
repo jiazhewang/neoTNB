@@ -3,6 +3,7 @@ layout: post
 title: JSP项目在MAC下的搭建_以本人LPSS项目为例
 keywords: JSP mac 配置 搭建 环境 tomcat java mysql 
 description: 本文介绍了使用 Apache Tomcat 和 MySQL 来在 mac 系统上搭建一个 JSP 开发测试环境。也包括了 Eclipse 上的设置。文内以本人大学时的一个 JSP 项目 LPSS 来举例。
+category: Tech
 tag: 
 - 配置
 ---

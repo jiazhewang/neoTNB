@@ -1,0 +1,16 @@
+---
+layout: default
+title: Categories
+---
+
+<h1>瞎哔哔 | Blab</h1>
+
+{% for post in site.categories.Blab %}
+
+<div class="teaser clearfix">
+  <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+  <!-- <div class="meta"><span class="timeago">{{ post.date | time_ago }}</span>{{ post.tags | tag_links }}</div> -->
+  <!-- <div class="description">{{ post.description }}</div> -->
+</div>
+
+{% endfor %}
