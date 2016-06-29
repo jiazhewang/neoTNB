@@ -4,7 +4,7 @@
  <title>Neo TNB</title>
  <link href="http://uncleneo.com//atom.xml" rel="self"/>
  <link href="http://uncleneo.com//"/>
- <updated>2016-06-29T17:10:23+08:00</updated>
+ <updated>2016-06-29T17:10:56+08:00</updated>
  <id>http://uncleneo.com/</id>
  <author>
    <name>Neo Wang</name>
@@ -328,9 +328,9 @@
  
  <entry>
    <title>JSP项目在MAC下的搭建</title>
-   <link href="http://uncleneo.com//JSP%E9%A1%B9%E7%9B%AE%E5%9C%A8MAC%E4%B8%8B%E7%9A%84%E6%90%AD%E5%BB%BA-%E4%BB%A5%E6%9C%AC%E4%BA%BA-LPSS-%E9%A1%B9%E7%9B%AE%E4%B8%BA%E4%BE%8B/"/>
+   <link href="http://uncleneo.com//JSP%E9%A1%B9%E7%9B%AE%E5%9C%A8MAC%E4%B8%8B%E7%9A%84%E6%90%AD%E5%BB%BA/"/>
    <updated>2014-07-13T00:00:00+08:00</updated>
-   <id>http://uncleneo.com//JSP项目在MAC下的搭建——以本人 LPSS 项目为例</id>
+   <id>http://uncleneo.com//JSP项目在MAC下的搭建</id>
    <content type="html">&lt;blockquote&gt;本文介绍了使用 Apache Tomcat 和 MySQL 来在 mac 系统上搭建一个 JSP 开发测试环境。也包括了 Eclipse 上的设置。文内以本人大学时的一个 JSP 项目 LPSS 来举例。&lt;/blockquote&gt;
 
 &lt;h1&gt;1. Tomcat 在 mac 下的安装与配置&lt;/h1&gt;
